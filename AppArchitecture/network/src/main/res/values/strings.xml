@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">network</string>
+    <string name="network_change_hint">您已经更改了网络环境，再您退出当前页面的时候APP将会重启切换环境！</string>
+</resources>
