@@ -51,7 +51,7 @@ MVVM
 
    ![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/1.jpg)
 
-   ![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/2.jpg)
+   ![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/2.png)
 
    ![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/6.PNG)
 
@@ -72,17 +72,17 @@ MVVM
 >
 > https://www.jianshu.com/p/25682d620320
 
-![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/3.jpg)
+![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/3.png)
 
 ## MVVM日常操作
 
-![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/4.jpg)
+![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/4.png)
 
 ## MVVM数据绑定分析
 
 1. 在MvvmActivity中实现了Observer接口，在onChanged中写了一些有关网络请求成功或异常的显示逻辑，原因是因为MutableLiveData<ViewStatus>会触发该onChanged方法，在基类中有写LiveData.setObserve(this,this)方法，这里将Observer对象传递给了LiveData
 
-   ![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/7.jpg)
+   ![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/7.png)
 
 2. 网络请求数据绑定
 
@@ -93,7 +93,7 @@ MVVM
 
 ##### 快乐时刻
 
-![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/5.jpg)
+![](https://github.com/raojianxiong/Mvvm-Simple/blob/master/AppArchitecture/pictures/5.png)
 
 
 
